@@ -3,8 +3,7 @@
 A classic, interactive Tic Tac Toe game built using pure **HTML**, **CSS**, and **JavaScript**. No external libraries or frameworks required.
 
 ## 🌐 Live Demo
-
-Play the game live here: **[Tic Tac Toe ] https://tic-tac-toe-fzi1.onrender.com
+https://tic-tac-toe-fzi1.onrender.com
 
 ## 🎮 Features
 
