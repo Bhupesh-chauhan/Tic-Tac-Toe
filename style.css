@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #e2c9e7;
+    text-align: center;
+}
+h1{
+    margin: 30px;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  /* gap: 1.5vmin;  */
+  /* work same as the margin block in box class */
+
+}  
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    margin: 6px;
+    background-color: aqua;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:  0 0 1rem rgba(0,0,0,0.2);
+    font-size: 8vmin;
+    color: #0b0b0b;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+.box:hover {
+    background-color: rgb(54, 121, 54);
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#new-btn{
+  padding: 1rem;
+  font-size: 1.25rem;
+  margin-left: 50px;
+  box-shadow:  0 0 1rem rgba(0, 0, 0, 0.6);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+#new-btn:hover {
+  background-color: red;
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#reset-btn{
+  padding: 1rem;
+  font-size: 1.25rem;
+  margin-right: 50px;
+  box-shadow:  0 0 1rem rgba(0, 0, 0, 0.6);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+#reset-btn:hover {
+  background-color: red;
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#msg {
+    color: rgb(0, 0, 0);
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 10vmin;
+}
+
+.hide{
+    display: none;
+}
